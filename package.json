@@ -1,0 +1,51 @@
+{
+  "name": "pond-focus",
+  "displayName": "Pond Focus",
+  "description": "Gently reminds you to take mindful breaks while coding.",
+  "version": "0.0.1",
+  "publisher": "Spirit Oasis",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:zen.start",
+    "onCommand:zen.stop"
+  ],
+  
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "zen.start",
+        "title": "Zen Mode: Start Mindful Timer"
+      },
+      {
+        "command": "zen.stop",
+        "title": "Zen Mode: Stop Mindful Timer"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Mindful Coder",
+      "properties": {
+        "mindfulCoder.interval": {
+          "type": "number",
+          "default": 30,
+          "description": "Interval in minutes between mindfulness reminders."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc",
+    "vscode:prepublish": "npx vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.50.0",
+    "vsce": "^2.10.0"
+  },
+  "license": "MIT"
+}
