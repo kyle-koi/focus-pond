@@ -2,7 +2,7 @@
   "name": "pond-focus",
   "displayName": "Pond Focus",
   "description": "Gently reminds you to take mindful breaks while coding.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "SpiritOasis",
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
     "onCommand:zen.start",
     "onCommand:zen.stop"
   ],
-  
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
