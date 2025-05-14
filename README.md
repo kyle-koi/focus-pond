@@ -2,7 +2,7 @@
 
 Pond focus gives some tips while coding to maintain your physical and mental health, releave stress, and increase productivity.
 
-![Logo](media/logo.png)
+![Logo](media/spirit_oasis.png)
 
 ## For more information
 
