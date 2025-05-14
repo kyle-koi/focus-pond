@@ -2,6 +2,8 @@
 
 Pond focus gives some tips while coding to maintain your physical and mental health, releave stress, and increase productivity.
 
+![Logo](media/logo.png)
+
 ## For more information
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
