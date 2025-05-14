@@ -3,6 +3,7 @@
   "displayName": "Pond Focus",
   "description": "Gently reminds you to take mindful breaks while coding.",
   "version": "0.1.0",
+  "icon": "media/spirit_oasis.png",
   "publisher": "SpiritOasis",
   "repository": {
     "type": "git",
