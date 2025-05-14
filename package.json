@@ -39,10 +39,6 @@
       }
     }
   },
-  "scripts": {
-    "compile": "tsc",
-    "vscode:prepublish": "npx vsce package"
-  },
   "devDependencies": {
     "@types/vscode": "^1.50.0",
     "vsce": "^2.10.0"
